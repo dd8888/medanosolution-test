@@ -43,6 +43,15 @@ function InfoPokemon(props) {
         <NavBar></NavBar>
         <Zoom in={true}>
           <Card className={classes.root}>
+            <CardActions>
+              <Button
+                size="small"
+                color="secondary"
+                onClick={() => routeChange()}
+              >
+                Go back
+              </Button>
+            </CardActions>
             <CardActionArea>
               <img
                 width="200"
@@ -99,15 +108,6 @@ function InfoPokemon(props) {
                 </StyledGrid>
               </CardContent>
             </CardActionArea>
-            <CardActions>
-              <Button
-                size="small"
-                color="secondary"
-                onClick={() => routeChange()}
-              >
-                Go back
-              </Button>
-            </CardActions>
           </Card>
         </Zoom>
         <Footer></Footer>
