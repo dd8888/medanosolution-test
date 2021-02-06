@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useTranslation } from "react-i18next";
 
 export function Footer() {
