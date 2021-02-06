@@ -1,5 +1,12 @@
+html,
+body {
+  background-color: #212121;
+}
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .App-logo {
@@ -34,5 +41,98 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.infoPokemon {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 10px;
+  color: white;
+}
+.infoPokemon img {
+  display: block;
+  padding: 25px;
+}
+
+.pokemonId {
+  background-color: #d30a40;
+  border-radius: 5px;
+  top: 12px;
+  padding: 6px;
+  position: relative;
+}
+.forms {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms > * + * {
+  margin-top: 20px;
+}
+.forms span {
+  color: #d30a40;
+}
+.pokemonData {
+  color: white;
+  text-transform: capitalize;
+}
+.loadingMessage {
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+}
+.bottom-right {
+  position: absolute;
+  top: 70%;
+  left: 81%;
+  color: black;
+  font-size: 2vw;
+  animation: jumpCursor 0.2s infinite alternate-reverse;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "pokemon-font", monospace;
+  font-size: 2vw;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes jumpCursor {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 65%;
   }
 }

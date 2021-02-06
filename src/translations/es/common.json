@@ -1,0 +1,19 @@
+{
+  "madeby": {
+    "text": "Hecho por David Díaz"
+  },
+  "navbar": {
+    "regions": "Regiones",
+    "about": "Acerca de"
+  },
+
+  "searchby": {
+    "text": "Buscar por nombre..."
+  },
+  "filter": {
+    "text": "O filtra por tipo"
+  },
+  "loading": {
+    "text": "Cargando..."
+  }
+}

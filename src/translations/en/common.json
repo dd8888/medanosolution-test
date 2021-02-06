@@ -1,0 +1,19 @@
+{
+  "madeby": {
+    "text": "Made by David Díaz"
+  },
+  "navbar": {
+    "regions": "Regions",
+    "about": "About"
+  },
+
+  "searchby": {
+    "text": "Search by name..."
+  },
+  "filter": {
+    "text": "Or filter by type"
+  },
+  "loading": {
+    "text": "Loading..."
+  }
+}
