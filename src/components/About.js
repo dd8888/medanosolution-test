@@ -8,7 +8,7 @@ function About() {
         <NavBar></NavBar>
         <div class="container">
           <img
-            src="https://lh3.googleusercontent.com/proxy/wGw826LuWvJo7onQimDdjdpdXZIEO_Y1O8vAXFVTwkGVnX2GO30rDTdtHPDXmLBu2ZEUsZkET8hGD1QhBX670I5DTJ8IrMS1"
+            src="https://www.pngkey.com/png/full/828-8283735_pokemon-dialog-box-monochrome.png"
             alt="Snow"
             style={{ width: "80%" }}
           />
